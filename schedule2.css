@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22092C;
+    color: #fff;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF6C22;
+    height: 60px;
+}
+
+#navList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navList li {
+    padding: 5px;
+    margin-left: 25px;
+}
+
+#navList li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+#navList li a:hover {
+    color: #340844;
+}
+
+#icon a {
+    text-decoration: none;
+    color: #22092C;
+    font-size: 52px;
+}
+
+#loginSection {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#loginSection button {
+    border-radius: 25px;
+}
+
+#loginSection button:nth-child(1) {
+    background-color: #340844;
+    border: none;
+    padding: 12px 0;
+}   
+
+#loginSection button:nth-child(1):hover {
+    background-color: #24062e;
+}
+
+#loginSection button:nth-child(2) {
+    background-color: #EBE3D5;
+    border: #22092C solid 2px;
+    padding: 10px 0;
+}
+
+#loginSection button:nth-child(2):hover {
+    background-color: #fff;
+} 
+
+#loginSection button:nth-child(1) a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px 12px 22px;
+}
+
+#loginSection button:nth-child(2) a {
+    text-decoration: none;
+    color: #22092C;
+    padding: 10px 20px 10px 20px;
+}
+
+#contentSection {
+    text-align: center;
+}
+
+#pageTitle {
+    padding-top: 15px;
+    color: white;
+    font-size: 36px;
+    display: block;
+}
+
+.movie {
+    display: flex;
+    margin-top: 67px;
+    margin-left: 373px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 400px;
+    border: 3px solid white;
+}
+
+.description {
+    margin: 20px;
+}
+
+.btn {
+    background-color: orange;
+    border-color: orange;
+    cursor: not-allowed;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+    border-color: orange;
+    cursor: not-allowed;
+    cursor: pointer;
+}
+
+.schedule {
+    margin-left: 373px;
+}
+
+.times {
+    margin-bottom: 20px;
+}
+
+#tittle_movie {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.location {
+    font-size: 20px;
+    margin-right: 550px;
+    width: 180px; 
+}
+
+.price {
+    display: flex;
+}
